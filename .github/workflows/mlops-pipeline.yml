@@ -66,8 +66,8 @@ jobs:
         file: ./docker/Dockerfile
         push: true
         tags: |
-          ${{ env.DOCKER_REGISTRY }}/${{ secrets.DOCKER_USERNAME }}/${{ env.IMAGE_NAME }}:latest
-          ${{ env.DOCKER_REGISTRY }}/${{ secrets.DOCKER_USERNAME }}/${{ env.IMAGE_NAME }}:${{ github.sha }}
+          docker.io/yourdockerusername/housing-price-predictor:latest
+          docker.io/yourdockerusername/housing-price-predictor:${{ github.sha }}
 
   deploy:
     needs: build-and-push
