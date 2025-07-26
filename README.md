@@ -348,6 +348,6 @@ This project is created for educational purposes as part of an MLOps assignment.
 
 ---
 
-**Author**: [Your Name]  
+**Author**: Pravien Madhavan  
 **Date**: July 2025  
 **Course**: MLOps Project Assignment
